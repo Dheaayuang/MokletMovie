@@ -12,40 +12,42 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
-import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.TopRateFragment;
+import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.NowPlayingFragment;
 import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.R;
+import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.TopRateFragment;
 import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.model.Results;
 
 /**
- * Created by Widya on 5/13/2017.
+ * Created by Widya on 5/14/2017.
  */
 
-public class Keluarga extends RecyclerView.Adapter<Keluarga.ViewHolder> {
+
+public class NowPlaying_Adapter extends RecyclerView.Adapter<NowPlaying_Adapter.ViewHolder> {
 
     public String url = "https://image.tmdb.org/t/p/w500";
     public String image;
-    ArrayList<Results> keluargaList;
-    TopRateFragment keluargaFragment;
+    ArrayList<Results> nowList;
+    NowPlayingFragment nowPlayingFragment;
     Context context;
     private int lastposition = -1;
 
-    public Keluarga(TopRateFragment keluargaFragment, ArrayList<Results> keluarga_List, Context context) {
-        this.keluargaList = keluarga_List;
-        this.keluargaFragment = keluargaFragment;
+    public NowPlaying_Adapter(NowPlayingFragment nowPlayingFragment, ArrayList<Results> now_List, Context context) {
+        this.nowList = now_List;
+        this.nowPlayingFragment = nowPlayingFragment;
         this.context = context;
 
     }
 
     @Override
-    public Keluarga.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list, parent, false);
+    public NowPlaying_Adapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list1, parent, false);
         ViewHolder vh = new ViewHolder(v);
         return vh;
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Results results = keluargaList.get(position);
+        Results results = nowList.get(position);
         holder.tvJudul.setText(results.title);
         holder.tvDeskripsi.setText(results.overview);
         image = url + results.backdrop_path;
@@ -59,8 +61,8 @@ public class Keluarga extends RecyclerView.Adapter<Keluarga.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        if (keluargaList != null)
-            return keluargaList.size();
+        if (nowList != null)
+            return nowList.size();
         return 0;
     }
 
@@ -72,9 +74,10 @@ public class Keluarga extends RecyclerView.Adapter<Keluarga.ViewHolder> {
 
         public ViewHolder(View itemView) {
             super(itemView);
-            ivFoto = (ImageView) itemView.findViewById(R.id.imageViewPoster);
-            tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
-            tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
+            ivFoto = (ImageView) itemView.findViewById(R.id.imageViewPoster_now);
+            tvJudul = (TextView) itemView.findViewById(R.id.textViewJuduln_now);
+            tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi_now);
         }
     }
 }
+

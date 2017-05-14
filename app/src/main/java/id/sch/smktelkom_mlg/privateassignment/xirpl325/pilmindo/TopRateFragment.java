@@ -16,7 +16,7 @@ import com.google.gson.Gson;
 
 import java.util.ArrayList;
 
-import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.adapter.Keluarga;
+import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.adapter.TopRate_Adapter;
 import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.model.Results;
 import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.model.ResultsResponse;
 import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.service.GsonGetRequest;
@@ -28,7 +28,7 @@ import id.sch.smktelkom_mlg.privateassignment.xirpl325.pilmindo.service.VolleySi
  */
 public class TopRateFragment extends Fragment {
     ArrayList<Results> m_List = new ArrayList<>();
-    Keluarga keluarga;
+    TopRate_Adapter keluarga;
     public TopRateFragment() {
         // Required empty public constructor
     }
@@ -45,7 +45,7 @@ public class TopRateFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_toprate,container,false);
         RecyclerView rv = (RecyclerView) rootView.findViewById(R.id.recyclerView_toprate);
         rv.setHasFixedSize(true);
-        keluarga = new Keluarga(this,m_List, getContext());
+        keluarga = new TopRate_Adapter(this,m_List, getContext());
         rv.setAdapter(keluarga);
 
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());

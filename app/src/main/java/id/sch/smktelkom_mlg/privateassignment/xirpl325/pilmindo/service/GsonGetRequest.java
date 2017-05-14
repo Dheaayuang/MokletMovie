@@ -39,6 +39,7 @@ public class GsonGetRequest<T> extends Request<T> {
 
 
 
+
     @Override
     public Map<String, String> getHeaders() throws AuthFailureError {
         return headers != null ? headers : super.getHeaders();

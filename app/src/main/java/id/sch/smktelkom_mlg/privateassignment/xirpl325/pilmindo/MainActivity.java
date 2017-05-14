@@ -88,14 +88,16 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
 
         if (id == R.id.nav_camera) {
-            fragment = new PopulerFragment();
-            setTitle("Film Populer");
+            fragment = new NowPlayingFragment();
+            setTitle("Now Playing");
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-            fragment = new KeluargaFragment();
-            setTitle("Film Keluarga_model");
+            fragment = new TopRateFragment();
+            setTitle("Top Rate Movie");
 
         } else if (id == R.id.nav_slideshow) {
+            fragment = new PopulerFragment();
+            setTitle("Populer Movie");
 
         } else if (id == R.id.nav_manage) {
 

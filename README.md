@@ -1,12 +1,10 @@
 # MokletMovie
 
-Aplikasi Moklet Movie
+### Link Apk Release
 
-## Link Apk Release
+https://drive.google.com/open?id=0B5BHR8ixbdCqSHZnaXVDWHhVOGc
 
-
-
-## Identitas
+### Identitas
 
 Nur Widya Astutik
 
@@ -18,26 +16,34 @@ Angkatan 24
 
 SMK Telkom Malang
 
-## Alamat API
+### Alamat API
 
+https://www.themoviedb.org/
 
-
-## Jenis Navigasi
+### Jenis Navigasi
 
 Navigation Drawer
 
-## Deskripsi Aplikasi
+### Deskripsi Aplikasi
 
+Aplikasi sederhana berbasis Android yang memungkinkan User dapat melihat update terbaru tentang film yang tayang saat ini atau
+film yang akan tayang, film terpopuler bahkan Top rate movie pun tersedia disini. Aplikasi ini juga mudah dibawa kemana saja dan
+kapan saja. 
 
+### Kelebihan Aplikasi
 
-## Kelebihan Aplikasi
+- Tampilan pada applikasi tidak akan kacau saat handphone di rotate.
 
+- Aplikasi yang mudah digunakan dan aman untuk usia anak-anak karena Tampilan (User Interface) yang ramah dan tidak 
+menyakitkan mata.
 
+- Size aplikasi tidak terlalu besar, sehingga tidak menghabiskan kapasitas penyimpanan pada handphone user.
 
-## Library yang Digunakan
+### Library yang Digunakan
 
+SQLite Dasar
 
-## ScreenShoots :
+### ScreenShoots :
 
 1.
 

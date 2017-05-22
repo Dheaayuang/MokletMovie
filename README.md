@@ -2,7 +2,7 @@
 
 ### Link Apk Release
 
-https://drive.google.com/open?id=0B5BHR8ixbdCqSHZnaXVDWHhVOGc
+https://drive.google.com/open?id=0B5BHR8ixbdCqRGxET0R5TGV6WFE
 
 ### Identitas
 
@@ -45,13 +45,29 @@ SQLite Dasar
 
 ### ScreenShoots :
 
-1.
+Tampilan App Intro :
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokletmovie1.png">
+1. 
 
-2. 
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov3.png">
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokletmovie2.png">
+2.
+
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov5.png">
+
+3.
+
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov4.png">
+
+Tampilan Applikasi :
+
+1. 
+
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov1.png">
+
+ 2.
+
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov2.png">
 
 3.
 

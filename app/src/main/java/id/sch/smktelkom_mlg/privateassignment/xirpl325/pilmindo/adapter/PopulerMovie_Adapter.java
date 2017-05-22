@@ -39,7 +39,7 @@ public class PopulerMovie_Adapter extends RecyclerView.Adapter<PopulerMovie_Adap
 
     @Override
     public PopulerMovie_Adapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list1, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list2, parent, false);
         ViewHolder vh = new ViewHolder(v);
         return vh;
     }
@@ -73,9 +73,9 @@ public class PopulerMovie_Adapter extends RecyclerView.Adapter<PopulerMovie_Adap
 
         public ViewHolder(View itemView) {
             super(itemView);
-            ivFoto = (ImageView) itemView.findViewById(R.id.imageViewPoster_now);
-            tvJudul = (TextView) itemView.findViewById(R.id.textViewJuduln_now);
-            tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi_now);
+            ivFoto = (ImageView) itemView.findViewById(R.id.imageViewPoster_populer);
+            tvJudul = (TextView) itemView.findViewById(R.id.textViewJuduln_populer);
+            tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi_populer);
         }
     }
 }

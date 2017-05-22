@@ -39,7 +39,7 @@ public class ComingSoon_Adapter extends RecyclerView.Adapter<ComingSoon_Adapter.
 
     @Override
     public ComingSoon_Adapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list1, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list3, parent, false);
         ViewHolder vh = new ViewHolder(v);
         return vh;
     }
@@ -73,9 +73,9 @@ public class ComingSoon_Adapter extends RecyclerView.Adapter<ComingSoon_Adapter.
 
         public ViewHolder(View itemView) {
             super(itemView);
-            ivFoto = (ImageView) itemView.findViewById(R.id.imageViewPoster_now);
-            tvJudul = (TextView) itemView.findViewById(R.id.textViewJuduln_now);
-            tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi_now);
+            ivFoto = (ImageView) itemView.findViewById(R.id.imageViewPoster_coming);
+            tvJudul = (TextView) itemView.findViewById(R.id.textViewJuduln_coming);
+            tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi_coming);
         }
     }
 }

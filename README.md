@@ -27,14 +27,14 @@ Navigation Drawer
 ### Deskripsi Aplikasi
 
 Aplikasi sederhana berbasis Android yang memungkinkan User dapat melihat update terbaru tentang film yang tayang saat ini atau
-film yang akan tayang, film terpopuler bahkan Top rate movie pun tersedia disini. Aplikasi ini juga mudah dibawa kemana saja dan
+film yang akan tayang, film terpopuler bahkan Top Rate Movie pun tersedia disini. Aplikasi ini juga mudah dibawa kemana saja dan
 kapan saja. 
 
 ### Kelebihan Aplikasi
 
-- Tampilan pada applikasi tidak akan kacau saat handphone di rotate.
+- Tampilan pada aplikasi tidak akan kacau saat handphone di rotate.
 
-- Aplikasi yang mudah digunakan dan aman untuk usia anak-anak karena Tampilan (User Interface) yang ramah dan tidak 
+- Aplikasi yang mudah digunakan dan aman untuk usia anak-anak karena tampilan (User Interface) yang ramah dan tidak 
 menyakitkan mata.
 
 - Size aplikasi tidak terlalu besar, sehingga tidak menghabiskan kapasitas penyimpanan pada handphone user.

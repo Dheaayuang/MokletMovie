@@ -63,7 +63,7 @@ Tampilan Applikasi :
 
 1. 
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov1.png">
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmova.png">
 
  2.
 

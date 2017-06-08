@@ -49,15 +49,15 @@ Tampilan App Intro :
 
 1. 
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov3.png">
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmovc.png">
 
 2.
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov5.png">
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmove.png">
 
 3.
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov4.png">
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmovd.png">
 
 Tampilan Applikasi :
 
@@ -67,22 +67,22 @@ Tampilan Applikasi :
 
  2.
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov2.png">
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmovb.png">
 
 3.
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov6.png">
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmovf.png">
 
 4. 
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov7.png">
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmovg.png">
 
 5. 
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov8.png">
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmovh.png">
 
 6. 
 
-<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmov9.png">
+<img src="https://github.com/nurwid28/MokletMovie/blob/master/mokmovi.png">
 
 

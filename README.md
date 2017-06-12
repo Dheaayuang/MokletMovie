@@ -2,7 +2,7 @@
 
 ### Link Apk Release
 
-https://drive.google.com/open?id=0B5BHR8ixbdCqNmJ4eVFWYm1pVkU
+https://drive.google.com/open?id=0B5BHR8ixbdCqQkItM1gzblppU0k
 
 ### Identitas
 
